@@ -1,0 +1,25 @@
+# VRHTGSCudaBackend
+
+CUDA backend for "Fast Eye-Tracked 3D Gaussian Rendering for Virtual Reality". It provides the foveated (stereo)
+rasterization used by:
+
+- the [VRHTGS](https://github.com/nerficg-project/VRHTGS) method for the [NeRFICG](https://github.com/nerficg-project/nerficg) framework, which includes this repository as a submodule, and
+- our [SIBR Viewer fork](https://github.com/nerficg-project/FoveatedSIBR) (coming soon).
+
+For installation and usage, please refer to the [VRHTGS repository](https://github.com/nerficg-project/VRHTGS).
+
+This project is licensed under the MIT license (see [LICENSE.md](LICENSE.md)).
+
+If you use this code for your research projects, please consider a citation:
+```bibtex
+@inproceedings{scholz2026vrhtgs,
+    title = {{Fast Eye-Tracked 3D Gaussian Rendering for Virtual Reality}},
+    author = {Scholz, Timon and Hahlbohm, Florian and Eisemann, Martin and Castillo, Susana and Magnor, Marcus},
+    booktitle = {Vision, Modeling, and Visualization (VMV)},
+    publisher = {The Eurographics Association},
+    editor = {Leimkühler, Thomas and Weinkauf, Tino and Campen, Marcel},
+    year = {2026},
+    DOI = {10.2312/vmv.20261013},
+    ISBN = {978-3-03868-318-6}
+}
+```
